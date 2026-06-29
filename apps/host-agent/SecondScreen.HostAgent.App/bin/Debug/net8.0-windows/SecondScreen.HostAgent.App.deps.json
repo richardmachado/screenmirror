@@ -1,0 +1,171 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SecondScreen.HostAgent.App/1.0.0": {
+        "dependencies": {
+          "DesktopDuplicationWapper": "1.0.2"
+        },
+        "runtime": {
+          "SecondScreen.HostAgent.App.dll": {}
+        }
+      },
+      "DesktopDuplicationWapper/1.0.2": {
+        "dependencies": {
+          "System.Drawing.Common": "6.0.0",
+          "Vortice.Direct3D11": "2.1.19"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DesktopDuplicationWapper.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/6.0.0": {},
+      "SharpGen.Runtime/2.0.0-beta.11": {
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0-beta.11": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11"
+        },
+        "runtime": {
+          "lib/net5.0/SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        }
+      },
+      "Vortice.Direct3D11/2.1.19": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DXGI": "2.1.19"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "assemblyVersion": "2.1.19.0",
+            "fileVersion": "2.1.19.0"
+          }
+        }
+      },
+      "Vortice.DirectX/2.1.19": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.Mathematics": "1.4.16"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DirectX.dll": {
+            "assemblyVersion": "2.1.19.0",
+            "fileVersion": "2.1.19.0"
+          }
+        }
+      },
+      "Vortice.DXGI/2.1.19": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "Vortice.DirectX": "2.1.19"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.DXGI.dll": {
+            "assemblyVersion": "2.1.19.0",
+            "fileVersion": "2.1.19.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/1.4.16": {
+        "runtime": {
+          "lib/net6.0/Vortice.Mathematics.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.16.5537"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SecondScreen.HostAgent.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DesktopDuplicationWapper/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZYAQJB/eGw7nAye8lyQBsicK/ywYTs4XbIAm0uZAIeicbq38UbeutOUa5zkGNr7CmJ1q0wQa/CTrWFWExQXoDA==",
+      "path": "desktopduplicationwapper/1.0.2",
+      "hashPath": "desktopduplicationwapper.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
+    "SharpGen.Runtime/2.0.0-beta.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-spTKX7k60Z/eIcRmFU2AvAOk5i17z7H1N7LkYBYKfY7BfkjzegAoG/mpGWKfjiokWuojmIWronGUMwnBcnF2pw==",
+      "path": "sharpgen.runtime/2.0.0-beta.11",
+      "hashPath": "sharpgen.runtime.2.0.0-beta.11.nupkg.sha512"
+    },
+    "SharpGen.Runtime.COM/2.0.0-beta.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/GgjdiSDdmEhgfjXAFnIrah9xk9FJjOGlFHjBUz7Nt0F3Fi9HFuAhGexm0ScU/goKiMfKrvOOryXIhDCn7veMg==",
+      "path": "sharpgen.runtime.com/2.0.0-beta.11",
+      "hashPath": "sharpgen.runtime.com.2.0.0-beta.11.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
+    },
+    "Vortice.Direct3D11/2.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lmethODzvtsR80GQPYXTxxUTlhjhqN0N3tzhnoKBG/W14nSWILa9RubpjSCwnysrgZvBJ/O6PpvjWhgZDDBAUA==",
+      "path": "vortice.direct3d11/2.1.19",
+      "hashPath": "vortice.direct3d11.2.1.19.nupkg.sha512"
+    },
+    "Vortice.DirectX/2.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zHA4WAsgsT7urLW4EEpDgi+OFicIi6WxJ/je2KtprUo9hGB4zuKvqjwcF0Q4Jc52rgrRkXYJOeS+XJ368dpe9A==",
+      "path": "vortice.directx/2.1.19",
+      "hashPath": "vortice.directx.2.1.19.nupkg.sha512"
+    },
+    "Vortice.DXGI/2.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C6N6HOiuHyCX6FUUpOAQlGlfbIagy2e4qQXuA2v3gq9rDSkvhaCCnfcuZkho+SHLS9h9gOF89ijlWDfjOzmoVg==",
+      "path": "vortice.dxgi/2.1.19",
+      "hashPath": "vortice.dxgi.2.1.19.nupkg.sha512"
+    },
+    "Vortice.Mathematics/1.4.16": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UOeUVtPQfk1qLdIRM09/9Js65/dYqaIIvxCyqsOx4c4l2/W7pqeeS6gDPwDmWRITR2LTd7S8FJ7RGv6E0PprCQ==",
+      "path": "vortice.mathematics/1.4.16",
+      "hashPath": "vortice.mathematics.1.4.16.nupkg.sha512"
+    }
+  }
+}

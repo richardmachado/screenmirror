@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "rRayxy4tX2s=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lunam\\Documents\\richard\\mirror\\screenmirror\\apps\\host-agent\\SecondScreen.HostAgent.App\\SecondScreen.HostAgent.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lunam\\.nuget\\packages\\desktopduplicationwapper\\1.0.2\\desktopduplicationwapper.1.0.2.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\sharpgen.runtime\\2.0.0-beta.11\\sharpgen.runtime.2.0.0-beta.11.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\sharpgen.runtime.com\\2.0.0-beta.11\\sharpgen.runtime.com.2.0.0-beta.11.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\vortice.direct3d11\\2.1.19\\vortice.direct3d11.2.1.19.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\vortice.directx\\2.1.19\\vortice.directx.2.1.19.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\vortice.dxgi\\2.1.19\\vortice.dxgi.2.1.19.nupkg.sha512",
+    "C:\\Users\\lunam\\.nuget\\packages\\vortice.mathematics\\1.4.16\\vortice.mathematics.1.4.16.nupkg.sha512"
+  ],
+  "logs": []
+}
